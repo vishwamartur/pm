@@ -414,6 +414,19 @@ Likely using js-waku to enable multi-platform development (browser, iOS, Android
 
 Deprecate nwaku and go-waku JSON RPC API and replace its usage with REST API across the repos (tests).
 
+### Named Shard Deprecation
+
+- **Deliverables**: (1)
+
+Peer & connection management, discovery are more complex with named shard than static shard.
+Note that autosharding is based on static sharding.
+The aim of this milestone is to fully remove support of all named sharding across the implementations and doc.
+Potentially also add a mention to the RFC.
+
+Note that current users of named shard (default pubsub topic) would need to be migrated to static sharding.
+In the case that Status decide to migrate to rendezvous + named shard, it will also be recommended to use static sharding to benefit of the work already done.
+In this instance, the maximum number of static shard could be increased on Status network to make it work.
+
 ### General Status Support
 
 - **Deliverables**: (2)
