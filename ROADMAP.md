@@ -534,7 +534,8 @@ Enable a web app to use Waku to request wallet signature for authentication and 
 1. Continue DST simulations: simulation of Waku network of 10K users, RLN simulations, etc. (DST)
 2. Continue QA work: improve test coverage from a RFC and Status usage angle, including interoperability test run
    between nwaku and go-waku, and once done, js-waku and nwaku. Considerations should be made to also include status-go (DST).
-3. Simulate or model status-go behaviour based on the result of Waku large scale simulations. (DST)
+3. Stress test nim-websocket library as client and servers, and with JS websocket library (DST)
+4. Simulate or model status-go behaviour based on the result of Waku large scale simulations. (DST)
 
 ### ACZ - Tokenomics - Smart Contracts
 
