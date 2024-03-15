@@ -6,16 +6,18 @@ This live document acts as a high overview of the work to be tackled for Waku in
 
 Actual planning and execution is done through GitHub issues and [milestones](https://github.com/waku-org/pm/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3Amilestone).
 
-## Deliverable
+## High Level Milestones
 
-Waku commits to 3 deliverables (WIP):
+Waku commits to 3 high level milestones (as defined by [Logos](https://roadmap.logos.co/what-is-a-milestone):
 
 1. RLN membership growth
 2. Status Support
-3. Progress on Censorship-resistance, Privacy and Sustainability. 
+3. Progress on Censorship-resistance, Privacy and Sustainability.
 
 (~2) expresses that while this deliverable is expected to be needed by Status, it's usage may not happen in 2024 and is
 not part of the list of requirements for Status in 2024.
+
+Research & Engineering Milestones, are defined as [deliverables by Logos](https://roadmap.logos.co/what-is-a-milestone#deliverables).
 
 ## Research Milestones
 
